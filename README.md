@@ -1,7 +1,5 @@
-```markdown
-# Roxiler Backend Project
 
-![Roxiler Backend](link-to-your-image)
+# Roxiler Backend Project
 
 Welcome to the Roxiler Backend project! This project implements APIs to manage transactions, generate statistics, bar charts, and pie charts based on transaction data. It also includes an API to combine data from multiple sources.
 
@@ -16,32 +14,32 @@ Welcome to the Roxiler Backend project! This project implements APIs to manage t
 
 ### Clone the repository:
 
-```
+
 git clone https://github.com/Aseemgupta256/Roxiler-Backened.git
-```
+
 
 ### Install dependencies:
 
-```
+
 cd Roxiler-Backened
 npm install
-```
+
 
 Create a `.env` file in the root directory with the following content, replacing the placeholders with your MySQL database credentials:
 
-```
+
 DB_HOST=your_database_host
 DB_USER=your_database_user
 DB_PASSWORD=your_database_password
 DB_DATABASE=your_database_name
 DB_PORT=your_database_port
-```
+
 
 ### Run the project:
 
-```
+
 npm start
-```
+
 
 ## Accessing APIs
 
@@ -66,4 +64,3 @@ npm start
 - **MySQL:** MySQL database driver
 - **dotenv:** Load environment variables from a .env file
 - **fetch:** HTTP client for fetching data from third-party APIs
-```
